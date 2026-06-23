@@ -1,0 +1,42 @@
+/*
+  Chatham Tie Card Mapper Documentation CSS Template
+  Author: Ethan Cerqua
+  Date: 2026-06-23
+*/
+
+/* Reset browser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Poppins';
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Common layout styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header, .footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
